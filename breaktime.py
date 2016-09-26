@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Opens a youtube link after a user specified amount of time.
+Opens a user specified web link after a user specified amount of time.
 Created on Sat Sep 24 20:49:34 2016
 
 @author: Anon
