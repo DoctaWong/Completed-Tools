@@ -24,4 +24,4 @@ def convert_to_mandarin(number):
                 translation += " shi"  
     return translation
 
-convert_to_andarin()
+convert_to_mandarin()
