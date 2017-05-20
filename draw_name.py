@@ -1,6 +1,6 @@
 import turtle
 
-def draw_sun():
+def OOP_drawing():
     window = turtle.Screen()
     window.bgcolor("red")
 
