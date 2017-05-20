@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Dec 15 08:52:57 2016
-Plots PassMark scores of flagship Nvidia video cards, 2010 to 2016
 @author: DoctaWong
 """
 '''
