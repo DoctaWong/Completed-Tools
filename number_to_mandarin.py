@@ -2,6 +2,10 @@ trans = {'0':'ling', '1':'yi', '2':'er', '3':'san', '4': 'si',
           '5':'wu', '6':'liu', '7':'qi', '8':'ba', '9':'jiu', '10': 'shi'}
 
 def convert_to_mandarin(number):
+    '''
+    Takes an integer 0-99
+    Returns the mandarin pronounciation of the number
+    '''
     numeric = str(number)
     count = 0
     translation = ""
