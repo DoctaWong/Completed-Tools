@@ -11,8 +11,10 @@ y = performance
 
 import pylab
 
+//assigns x and y to price and performance values, and plots their values
 x = [90, 130, 160, 240, 380, 580]
 y = [3253, 5209, 5872, 8875, 11065, 12048]
+
 pylab.plot(x,y)
 pylab.title('Video Card Performance per Dollar, 2016')
 pylab.ylabel('PassMark Score')
