@@ -20,16 +20,11 @@ pylab.plot(year,mid_range, 'bo')
 pylab.title('Quadratic Growth of Video Card Performance Per Year')
 pylab.ylabel('PassMark Score')
 pylab.xlabel('Year')
-
-
-
 pylab.ylim([0,15000])
-
 
 a, b, c = pylab.polyfit(year, high_end, 2)
 high_end_curve = a*pylab.array(year)**2 + b*pylab.array(year) + c
 pylab.plot(year, high_end_curve, 'r-', label = 'high end')
-
 
 a, b, c = pylab.polyfit(year, mid_range, 2)
 mid_range_curve = a*pylab.array(year)**2 + b*pylab.array(year) + c
