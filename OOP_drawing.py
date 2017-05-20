@@ -20,4 +20,4 @@ def OOP_drawing():
         squares += 1
     window.exitonclick()
 
-draw_sun()
+OOP_drawing()
