@@ -23,3 +23,5 @@ def convert_to_mandarin(number):
             if count != len(numeric):
                 translation += " shi"  
     return translation
+
+convert_to_andarin()
