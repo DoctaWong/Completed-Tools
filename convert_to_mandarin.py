@@ -1,0 +1,22 @@
+def convert_to_mandarin(number):
+    numeric = str(number)
+    count = 0
+    translation = ""
+    for e in numeric:
+        if trans[e] == 'ling' and len(numeric) > 1:
+            count += 1
+        elif trans[e] == "yi" and len(numeric) == 2:
+            count += 1
+            if numeric =="11":
+                return "shi yi"
+            else:
+                translation += "shi"          
+        else:
+            count += 1
+            if count - 1 != len(numeric) and count != 1:
+                translation += " "
+            
+            translation += trans[e]              
+            if count != len(numeric):
+                translation += " shi"  
+    return translation
