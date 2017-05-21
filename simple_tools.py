@@ -2,8 +2,7 @@ def circumference(radius):
 	'''
 	Takes a number, the radius of a circle.
 	Returns the circumference of the corresponding circle.
-	'''
-	
+	'''	
  	circumference = (radius * 2) * math.pi
  	return circumference
  
